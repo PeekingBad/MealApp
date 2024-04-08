@@ -90,7 +90,7 @@ class HomePage extends StatelessWidget {
                         child: Text(
                           'View',
                           style: TextStyle(
-                            color: diets[index].viewIsSelected ? Colors.white : Colors.(0xffc58bf2),
+                            color: diets[index].viewIsSelected ? Colors.white : Color(0xffc58bf2),
                             fontWeight: FontWeight.w600,
                             fontSize: 14
                           ),
