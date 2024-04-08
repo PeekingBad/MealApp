@@ -6,6 +6,7 @@ class DietModel {
   String level;
   String duration;
   String calorie;
+  Color boxColor;
   bool viewIsSelected;
 
   DietModel(
@@ -14,6 +15,7 @@ class DietModel {
       required this.level,
       required this.duration,
       required this.calorie,
+      required this.boxColor,
       required this.viewIsSelected});
 
   static List<DietModel> getDiets() {
@@ -21,20 +23,22 @@ class DietModel {
 
     diets.add(DietModel(
       name: 'Honey Pancake',
-      iconPath: 'assets/icons/honey-pancake.svg',
+      iconPath: 'assets/icons/honey-pancakes.svg',
       level: 'Easy',
       duration: '30mins',
       calorie: '180kCal',
       viewIsSelected: true,
+      boxColor: Color(0xff9DCEFF),
     ));
 
     diets.add(DietModel(
       name: 'Canai Bread',
-      iconPath: 'assets/icons/canai-bread.svg',
+      iconPath: 'assets/icons/honey-pancakes.svg',
       level: 'Easy',
       duration: '20mins',
       calorie: '230kCal',
       viewIsSelected: true,
+      boxColor: Color(0xffEEA4CE),
     ));
 
     
